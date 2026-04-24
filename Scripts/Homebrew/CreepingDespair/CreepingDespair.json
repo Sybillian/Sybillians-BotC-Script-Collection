@@ -161,7 +161,7 @@
   },
   {
     "id": "acolyte_creepingdespair",
-    "image": "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/CreepingDespair\/Townsfolk\/acolyte_good.png?token=GHSAT0AAAAAADYP655ZOSL4MRWKKHO4APGM2PK2WKQ",
+    "image": "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/CreepingDespair\/Townsfolk\/acolyte_good.png?token=GHSAT0AAAAAADYP655ZIFCDGLPUXFZWW7TW2PK2YTQ",
     "otherNightReminder": "If the Acolyte died, show them the **YOU ARE** token and the Acolyte token.",
     "remindersGlobal": [
       "Is The Acolyte",
