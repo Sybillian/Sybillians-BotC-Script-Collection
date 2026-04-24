@@ -144,8 +144,10 @@
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/chort_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/chort_evil.png"
     ],
-    "firstNightReminder": "The Mortician might point at a player.",
-    "otherNightReminder": "The Mortician might point at a player.",
+    "otherNightReminder": "The Mortician might point at a player. If they are evil, show the Mortician a thumbs down.",
+    "reminders": [
+      "Alive"
+    ],
     "name": "Mortician",
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose a dead player: they are resurrected, and you become their alignment.",
@@ -185,6 +187,7 @@
     ],
     "otherNightReminder": "If the Kikimora died, one of their neighbors dies too. :reminder:",
     "reminders": [
+      "Healthy",
       "Healthy",
       "Dead"
     ],
@@ -253,7 +256,7 @@
     ],
     "otherNightReminder": "The Upi\u00f3r picks a character. :reminder:",
     "reminders": [
-      "Dead"
+      "Drunk"
     ],
     "name": "Upi\u00f3r",
     "team": "outsider",
@@ -313,6 +316,7 @@
     "firstNightReminder": "The Blud chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
     "otherNightReminder": "The Blud chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
     "reminders": [
+      "Linked",
       "Linked"
     ],
     "name": "Blud",
@@ -363,6 +367,7 @@
     ],
     "otherNightReminder": "The Svarog chooses a player. :reminder:",
     "reminders": [
+      "Dead",
       "Dead"
     ],
     "name": "Svarog",
@@ -378,6 +383,7 @@
     ],
     "otherNightReminder": "The Arbiter chooses a player. :reminder:",
     "reminders": [
+      "Dead",
       "Dead",
       "Nominated",
       "Safe from Execution"
@@ -396,6 +402,7 @@
     ],
     "otherNightReminder": "The Porevit chooses two players. :reminder::reminder:",
     "reminders": [
+      "Dead",
       "Dead"
     ],
     "name": "Porevit",
@@ -413,6 +420,7 @@
     "firstNightReminder": "Show the Werewolf their phrase.",
     "otherNightReminder": "The Werewolf chooses a player. :reminder: If an evil player said their phrase, the Werewolf chooses two players. :reminder:",
     "reminders": [
+      "Dead",
       "Dead",
       "Spell Cast"
     ],
