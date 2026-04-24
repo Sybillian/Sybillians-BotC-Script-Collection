@@ -1,0 +1,506 @@
+[
+    {
+        "id": "_meta",
+        "name": "",
+        "author": "",
+        "background": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/WH-background.png",
+        "logo": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/_meta.png",
+        "almanac": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/almanac.html",
+        "firstNight": [
+            "dusk",
+            "minioninfo",
+            "demoninfo",
+            "blackbishop_witchinghour",
+            "maidenoflust_witchinghour",
+            "thedarklord_witchinghour",
+            "hedgewitch_witchinghour",
+            "templar_witchinghour",
+            "guardianangel_witchinghour",
+            "midwife_witchinghour",
+            "whitebishop_witchinghour",
+            "palmreader_witchinghour",
+            "confessor_witchinghour",
+            "dawn"
+        ],
+        "otherNight": [
+            "dusk",
+            "willowisp_witchinghour",
+            "fallenangel_witchinghour",
+            "hedgewitch_witchinghour",
+            "sacrificiallamb_witchinghour",
+            "bodystealer_witchinghour",
+            "werewolf_witchinghour",
+            "maidenoflust_witchinghour",
+            "thedarklord_witchinghour",
+            "vampire_witchinghour",
+            "vengefulspirit_witchinghour",
+            "dhampir_witchinghour",
+            "inquisitor_witchinghour",
+            "soulcatcher_witchinghour",
+            "psychopomp_witchinghour",
+            "confessor_witchinghour",
+            "palmreader_witchinghour",
+            "medium_witchinghour",
+            "dawn"
+        ]
+    },
+    {
+        "id": "whitebishop_witchinghour",
+        "name": "White Bishop",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/whitebishop_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "You start knowing the length of the longest line of Townsfolk.",
+        "flavor": "Faith is a simple thing. Tending to the wounded. Comforting the bereft. Our Faith makes all of us stronger.",
+        "firstNight": 18,
+        "otherNight": 0,
+        "firstNightReminder": "Show a number to the White Bishop."
+    },
+    {
+        "id": "midwife_witchinghour",
+        "name": "Midwife",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/midwife_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "You start knowing 2 players: one is a Minion (if possible), the other is an Outsider (if possible).",
+        "flavor": "At birth I could barely tell them apart. Interesting to see how different they've grown.",
+        "firstNight": 17,
+        "otherNight": 0,
+        "firstNightReminder": "Show the Midwife two players.",
+        "reminders": [
+            "Known",
+            "Known"
+        ]
+    },
+    {
+        "id": "templar_witchinghour",
+        "name": "Templar",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/templar_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "You start knowing an in-play Minion. Your Townsfolk neighbors are safe from Minions' & Outsiders' abilities.",
+        "flavor": "Stand behind me. Faith holds us together.",
+        "firstNight": 15,
+        "otherNight": 0,
+        "firstNightReminder": "Show the Templar an in-play Minion token.",
+        "reminders": [
+            "Safe",
+            "Safe"
+        ]
+    },
+    {
+        "id": "guardianangel_witchinghour",
+        "name": "Guardian Angel",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/guardianangel_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "You start knowing a good player. If they die at night, you may die instead. If you don't, you learn the ability that killed them.",
+        "flavor": "Your time hasn't come yet!",
+        "firstNight": 16,
+        "otherNight": 0,
+        "firstNightReminder": "Show a good player to the Guardian Angel.",
+        "reminders": [
+            "Blessed"
+        ]
+    },
+    {
+        "id": "palmreader_witchinghour",
+        "name": "Palm Reader",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/palmreader_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: if they are good, you learn their character. Otherwise, you learn arbitrary information.",
+        "flavor": "Every line tells a story. Let me see yours.",
+        "firstNight": 19,
+        "otherNight": 17,
+        "firstNightReminder": "The Palm Reader chooses a player.",
+        "otherNightReminder": "The Palm Reader chooses a player."
+    },
+    {
+        "id": "psychopomp_witchinghour",
+        "name": "Psychopomp",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/psychopomp_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "Each night*, you learn a character that was killed by the Demon tonight.",
+        "flavor": "The dead whisper. Such anguish. Such hatred. Let me speak for them, so that they may finally be at peace.",
+        "firstNight": 0,
+        "otherNight": 15,
+        "otherNightReminder": "Wake the Psychopomp and show them a character token, or shake your head \"No\"."
+    },
+    {
+        "id": "dhampir_witchinghour",
+        "name": "Dhampir",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/dhampir_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player & guess their character: if correct, they die.",
+        "flavor": "Be at ease. If your heart is pure, you have nothing to fear.",
+        "firstNight": 0,
+        "otherNight": 12,
+        "otherNightReminder": "The Dhampir guesses a player's character."
+    },
+    {
+        "id": "bloodartist_witchinghour",
+        "name": "Blood Artist",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/bloodartist_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "Once per day, if you nominated and executed a living player yesterday, privately ask the Storyteller any yes/no question",
+        "flavor": "Every pigment pales in comparison to working with real materials.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Blood Acquired"
+        ]
+    },
+    {
+        "id": "hedgewitch_witchinghour",
+        "name": "Hedge Witch",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/hedgewitch_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a good character. Other players that are this character cannot die while you live.",
+        "flavor": "This talisman will ward off evil spirits. Keep it with you at all time.",
+        "firstNight": 14,
+        "otherNight": 4,
+        "firstNightReminder": "If the Hedge Witch has their ability, they may point to a character on their character sheet.",
+        "otherNightReminder": "If the Hedge Witch has their ability, they may point to a character on their character sheet.",
+        "reminders": [
+            "Warded",
+            "No ability"
+        ]
+    },
+    {
+        "id": "inquisitor_witchinghour",
+        "name": "Inquisitor",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/inquisitor_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose a player: if they are a Minion, they die. If they are the Demon, you die.",
+        "flavor": "I will purge this world by Holy Fire!",
+        "firstNight": 0,
+        "otherNight": 13,
+        "otherNightReminder": "The Inquisitor may point to a player. If they do, put the no ability reminder.",
+        "reminders": [
+            "No ability"
+        ]
+    },
+    {
+        "id": "soulcatcher_witchinghour",
+        "name": "Soulcatcher",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/soulcatcher_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose a dead player: you learn and gain their ability. If they are evil, you are poisoned.",
+        "flavor": "Lend me your power and let me avenge your death!",
+        "firstNight": 0,
+        "otherNight": 14,
+        "otherNightReminder": "If the Soulcatcher still has his ability, they may point to a dead player. If they have another's player ability, wake them when that player would wake.",
+        "reminders": [
+            "Caught"
+        ]
+    },
+    {
+        "id": "confessor_witchinghour",
+        "name": "Confessor",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/confessor_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "On your first night, choose any number X of players. On night X, you learn how many are evil.",
+        "flavor": "Repent and you shall be saved.",
+        "firstNight": 20,
+        "otherNight": 16,
+        "firstNightReminder": "The Confessor points at any number of players. Mark them with the \"Confessed\" reminder.",
+        "otherNightReminder": "If it is night X, where X is the number of \"Confessed\" reminders, wake the Confessor and tell them how many are Evil.",
+        "reminders": [
+            "Confessed",
+            "Confessed",
+            "Confessed",
+            "Confessed",
+            "Confessed"
+        ]
+    },
+    {
+        "id": "medium_witchinghour",
+        "name": "Medium",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/medium_witchinghour.png",
+        "team": "townsfolk",
+        "ability": "On your first day, you may visit the Storyteller to learn a prediction. When it occurs, you learn this tonight.",
+        "flavor": "Dreams show me a door of seven locks. Six undone, one unformed. The seventh seal awaits the final key. The gate stirs. Its opening nears.",
+        "firstNight": 0,
+        "otherNight": 18,
+        "otherNightReminder": "If the Prophecy has come to pass, wake the Medium, tell them \"yes\", then put them to sleep.",
+        "reminders": [
+            "Realized"
+        ]
+    },
+    {
+        "id": "madman_witchinghour",
+        "name": "Madman",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/madman_witchinghour.png",
+        "team": "outsider",
+        "ability": "You think you are a Townsfolk. You have the ability of the character you believe to be. Townsfolk abilities yield false information.",
+        "flavor": "Don't listen to him. His words will poison your mind.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "remindersGlobal": [
+            "Madman"
+        ],
+        "setup": true
+    },
+    {
+        "id": "cursed_witchinghour",
+        "name": "Cursed",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/cursed_witchinghour.png",
+        "team": "outsider",
+        "ability": "You believe you are a Townsfolk. You have the ability of the character you believe to be. You might register as any character and any aligment, even if dead.",
+        "flavor": "What have I done to deserve your doubts?",
+        "firstNight": 0,
+        "otherNight": 0,
+        "remindersGlobal": [
+            "Cursed",
+            "Cursed",
+            "Cursed",
+            "Cursed",
+            "Cursed",
+            "Cursed"
+        ],
+        "setup": true
+    },
+    {
+        "id": "coward_witchinghour",
+        "name": "Coward",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/coward_witchinghour.png",
+        "team": "outsider",
+        "ability": "When you learn that you died, name any number of living players. If you don't name at least 1 good & 1 evil, your team loses. Named Townsfolk are drunk until dawn.",
+        "flavor": "The monsters are everywhere! Everywhere!",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Drunk ",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk"
+        ]
+    },
+    {
+        "id": "sacrificiallamb_witchinghour",
+        "name": "Sacrificial Lamb",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/sacrificiallamb_witchinghour.png",
+        "team": "outsider",
+        "ability": "If the Demon dying would end the game & 5 or more players live, you swap character and alignment with the Demon. (Travellers don't count)",
+        "flavor": "Bring the virgin sacrifice. The Dark Lord will return!",
+        "firstNight": 0,
+        "otherNight": 5,
+        "otherNightReminder": "If the Sacrificial Lamb became the Demon, wake them, show them their new character and their new alignment. Do the same with the former Demon."
+    },
+    {
+        "id": "devotee_witchinghour",
+        "name": "Devotee",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/devotee_witchinghour.png",
+        "team": "outsider",
+        "ability": "You think you are a Minion. You think other Devotees are Minions & that the Black Bishop is a Demon. [the Black Bishop is in play]",
+        "flavor": "We live to serve.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Minion I",
+            "Minion II",
+            "Minion III",
+            "Minion IV"
+        ],
+        "special": [
+            {
+                "type": "selection",
+                "name": "bag-duplicate"
+            }
+        ]
+    },
+    {
+        "id": "vampire_witchinghour",
+        "name": "Vampire",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/vampire_witchinghour.png",
+        "team": "minion",
+        "ability": "Each night*, choose a player & guess their character: if correct, they die.",
+        "flavor": "May I come in?",
+        "firstNight": 0,
+        "otherNight": 10,
+        "otherNightReminder": "The Vampire guesses a player's character."
+    },
+    {
+        "id": "blackbishop_witchinghour",
+        "name": "Black Bishop",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/blackbishop_witchinghour.png",
+        "team": "minion",
+        "ability": "You know who the Devotees are & what Demon they believe you to be. Evil players might register as Devotees to other Devotees and to you. [+1 to +3 Devotees]",
+        "flavor": "Your faith will be rewarded. Glory to the Dark Lord.",
+        "firstNight": 11,
+        "otherNight": 0,
+        "firstNightReminder": "Simulate a Demon info and Minion info phase for the Black Bishop and his Devotees.",
+        "reminders": [
+            "Fake Devotee",
+            "Fake Devotee",
+            "Fake Devotee"
+        ]
+    },
+    {
+        "id": "vengefulspirit_witchinghour",
+        "name": "Vengeful Spirit",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/vengefulspirit_witchinghour.png",
+        "team": "minion",
+        "ability": "The 1st time you die by execution, you live but register as dead. From now on, each night, choose a player: they die.",
+        "flavor": "My curse upon you!",
+        "firstNight": 0,
+        "otherNight": 11,
+        "otherNightReminder": "If the Vengeful Spirit has the \"Awakened\" reminder, they choose a player to kill.",
+        "reminders": [
+            "Awakened"
+        ]
+    },
+    {
+        "id": "succubus_witchinghour",
+        "name": "Succubus",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/succubus_witchinghour.png",
+        "team": "minion",
+        "ability": "Townsfolk that nominate you or are nominated by you become Cursed. You might register as good & as a Townsfolk or Outsider, even if dead.",
+        "flavor": "You won't hurt me, will you? Haven't I been a... good friend?",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Cursed",
+            "Cursed",
+            "Cursed",
+            "Cursed",
+            "Cursed",
+            "Cursed"
+        ]
+    },
+    {
+        "id": "werewolf_witchinghour",
+        "name": "Werewolf",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/werewolf_witchinghour.png",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Once per game, at night, you may choose twice.",
+        "flavor": "Awooooo!",
+        "firstNight": 0,
+        "otherNight": 7,
+        "otherNightReminder": "The Werewolf points at one player. If they still have their ability, offer them to choose another player.",
+        "reminders": [
+            "Dead",
+            "No ability"
+        ]
+    },
+    {
+        "id": "thedarklord_witchinghour",
+        "name": "The Dark Lord",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/thedarklord_witchinghour.png",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. One Minion has an Outsider ability in addition to their own ability. They know which and they still know they are a Minion.",
+        "flavor": "Rise, my Minions! Rise and obey your true Master!",
+        "firstNight": 13,
+        "otherNight": 9,
+        "firstNightReminder": "Wake a Minion of your choice and show them their Outsider ability.",
+        "otherNightReminder": "The Dark Lord chooses a player.",
+        "reminders": [
+            "Outsider I",
+            "Outsider II",
+            "Outsider III",
+            "Outsider IV",
+            "Dead"
+        ]
+    },
+    {
+        "id": "bodystealer_witchinghour",
+        "name": "Body Stealer",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/bodystealer_witchinghour.png",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. When put on the block by a Minion, if 5 or more players live, you switch character with them.",
+        "flavor": "This one has become useless. Bring me another!",
+        "firstNight": 0,
+        "otherNight": 6,
+        "otherNightReminder": "The Body Stealer chooses a player.",
+        "reminders": [
+            "Dead"
+        ]
+    },
+    {
+        "id": "maidenoflust_witchinghour",
+        "name": "Maiden of Lust",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/maidenoflust_witchinghour.png",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Once per game, at night, choose a player & a not-in-play Minion: they become evil & that Minion. [-1 Minion, +1 Outsider]",
+        "flavor": "Would you rather serve in Heavens or rule in Hell?",
+        "firstNight": 12,
+        "otherNight": 8,
+        "firstNightReminder": "The Maiden of Lust may point to a player to become a Minion of their choice.",
+        "otherNightReminder": "The Maiden of Lust chooses a player to die. Then, they may point to a player to become a Minion of their choice if they haven't done so yet.",
+        "reminders": [
+            "Dead",
+            "Charm Used"
+        ]
+    },
+    {
+        "id": "willowisp_witchinghour",
+        "name": "Will o' Wisp ",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/willowisp_witchinghour.png",
+        "team": "traveller",
+        "ability": "Each night*, choose a player you haven't chosen yet. They wake and may accept your guidance. If they do, that night, they either die or cannot die and play twice, your choice.",
+        "flavor": "Witches would have you believe they are helpful spirits, guiding travelers through the glades. Do not be fools! These abominations will only lead you to your death. Mark my word!",
+        "firstNight": 0,
+        "otherNight": 2,
+        "otherNightReminder": "The Will o' Wisp picks a player and chooses guidance or death.",
+        "reminders": [
+            "Guided",
+            "Guided",
+            "Guided",
+            "Guided",
+            "Guided",
+            "Guided",
+            "Guided"
+        ]
+    },
+    {
+        "id": "fallenangel_witchinghour",
+        "name": "Fallen Angel",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/fallenangel_witchinghour.png",
+        "team": "traveller",
+        "ability": "Each time someone is executed, you may choose to die instead. If you do, that night, you learn their character.",
+        "flavor": "What could cause such a pure being to lose her light?",
+        "firstNight": 0,
+        "otherNight": 3,
+        "otherNightReminder": "If the Angel sacrificed themselves, they learn a character.",
+        "reminders": [
+            "Known"
+        ]
+    },
+    {
+        "id": "gatekeeper_witchinghour",
+        "name": "Gatekeeper",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/gatekeeper_witchinghour.png",
+        "team": "traveller",
+        "ability": "Dead players may publicly sacrifice their vote token. If they do so, they regain their ability until dusk tomorrow. You secretly decide if they are drunk.",
+        "flavor": "You have spoken the words and offered payment. You shall pass. Return before the sun sets tomorrow, lest you be trapped forever in the worlds between.",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Drunk",
+            "Returned",
+            "Returned",
+            "Returned",
+            "Returned",
+            "Returned"
+        ]
+    },
+    {
+        "id": "thenight_witchinghour",
+        "name": "The Night",
+        "image": "http://ligm.univ-eiffel.fr/~francis/WitchingHour/media/thenight_witchinghour.png",
+        "team": "traveller",
+        "ability": "At the start of each day, before night death are announced, you may silently point at someone. Everyone may vote. If a majority is reached, the designated player dies.",
+        "flavor": "Primal. Uncaring. Cold. Just.",
+        "firstNight": 0,
+        "otherNight": 0
+    },
+    "bootlegger"
+]

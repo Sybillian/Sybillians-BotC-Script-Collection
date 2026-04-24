@@ -1,0 +1,333 @@
+[
+  {
+    "id": "_meta",
+    "author": "Goodpart",
+    "name": "Out And About",
+        "hideTitle": true,
+    "bootlegger":
+        [
+            "View running notes and homebrew almanac at bit.ly/the-menagerie"
+        ],
+        "background": "http://menagerie.splittingpixels.com.au/images/menbg.jpg",
+        "logo": "http://menagerie.splittingpixels.com.au/images/logo/outlogo.png",
+        "almanac": "https://bit.ly/the-menagerie",
+    "firstNight": [
+      "dusk",
+      "philosopher",
+      "minioninfo",
+      "snitch",
+      "demoninfo",
+      "blackmailer",
+      "fearmonger",
+      "banker",
+      "seer",
+      "chef",
+      "empath",
+      "fortuneteller",
+      "seamstress",
+      "jnak",
+      "dawn",
+      "muckraker"
+    ],
+    "otherNight": [
+      "dusk",
+      "philosopher",
+      "innkeeper",
+      "fearmonger",
+      "blackmailer",
+      "muckraker",
+      "jnak",
+      "creepingterror",
+      "alhadikhia",
+      "shinkan",
+      "seer",
+      "gatekeeper",
+      "barber",
+      "sweetheart",
+      "oaf",
+      "empath",
+      "fortuneteller",
+      "towncrier",
+      "oracle",
+      "seamstress",
+      "dawn"
+    ]
+  },
+  "chef",
+  {
+    "id": "banker",
+    "name": "Banker",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/bang.png",
+      "http://menagerie.splittingpixels.com.au/images/bane.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You start knowing three roles: one is in play.",
+    "flavor": "Resumes lie; medical records lie; but bank records can be trusted. Even the devil needs somewhere to put their money that isn't a sock drawer.",
+    "firstNight": 47,
+    "otherNight": 0,
+    "firstNightReminder": "Show the Banker three roles."
+  },
+  "empath",
+  "fortuneteller",
+  {
+    "id": "seer",
+    "name": "Seer",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/seeg.png",
+      "http://menagerie.splittingpixels.com.au/images/seee.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night, the Demon chooses 1 alive player (not a Minion or Demon), unique to previous choices. Learn that player. If you are chosen, the Demon learns who you are.",
+    "flavor": "These visions can be wielded as a weapon - but all too often, people of my ilk find those weapons turned against me.",
+    "firstNight": 47,
+    "otherNight": 57.5,
+    "firstNightReminder": "The Demon selects a player. Show that player to the Seer if they are good; show an arbitrary player if they are drunk. If the Demon chooses the Seer, show the Seer's player to the Demon.",
+    "otherNightReminder": "The Demon selects a player. Show that player to the Seer if they are good; show an arbitrary player if they are drunk. If the Demon chooses the Seer, show the Seer's player to the Demon.",
+    "reminders": [
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Learns"
+    ],
+    "jinxes": [
+      {
+        "id": "goon",
+        "reason": "If the Goon has not been chosen tonight, they become the alignment of the Seer, not the Demon; the Seer is drunk as a result."
+      },
+      {
+        "id": "spy",
+        "reason": "The Spy can be chosen by the Demon at night."
+      },
+      {
+        "id": "summoner",
+        "reason": "If a Summoner is in play and no Demon is in play, the Summoner chooses for the Seer’s ability instead."
+      },
+      {
+        "id": "doppelganger",
+        "reason": "The Doppelganger can be chosen by the Demon at night."
+      },
+      {
+        "id": "vortox",
+        "reason": "The Vortox can choose any player at night as part of the Seer's ability."
+      }
+    ]
+  },
+  "towncrier",
+  "oracle",
+  "innkeeper",
+  {
+    "id": "gatekeeper",
+    "name": "Gatekeeper",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/gatg.png",
+      "http://menagerie.splittingpixels.com.au/images/gate.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night*, if you nominated today, learn one not-in-play character. [+0 or +1 Outsider]",
+    "flavor": "Halt! Who goes there?",
+    "firstNight": 0,
+    "otherNight": 57.5,
+    "otherNightReminder": "If the Gatekeeper nominated today, the Gatekeeper learns a not-in-play character.",
+    "reminders": [
+      "Nominated"
+    ],
+    "setup": true
+  },
+  "seamstress",
+  "philosopher",
+  {
+    "id": "shinkan",
+    "name": "Shinkan",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/kang.png",
+      "http://menagerie.splittingpixels.com.au/images/kane.png"
+    ],
+    "team": "townsfolk",
+    "ability": "If you die at night, all evil players are drunk the next day and night.",
+    "flavor": "二礼二拍手一礼.",
+    "firstNight": 0,
+    "otherNight": 57.5,
+    "otherNightReminder": "If the Shinkan has died tonight, mark all evil players as drunk.",
+    "reminders": [
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ]
+  },
+  "fool",
+  "sweetheart",
+  "barber",
+  {
+    "id": "oaf",
+    "name": "Oaf",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/oafg.png",
+      "http://menagerie.splittingpixels.com.au/images/oafe.png"
+    ],
+    "team": "outsider",
+    "ability": "If a non-Demon ability would target you, it might target a living neighbour instead. If targeted 3 times, lose your ability & die at night.",
+    "flavor": "Uh oh. Sorry. Uh ohhhhh. Sorryyyyy.",
+    "firstNight": 0,
+    "otherNight": 70,
+    "otherNightReminder": "If the Oaf has been targeted by 3 abilities in total thus far, they die.",
+    "reminders": [
+      "Bounced 1",
+      "Bounced 2",
+      "Bounced 3",
+      "Dies Tonight"
+    ],
+    "jinxes": [
+      {
+        "id": "saboteur",
+        "reason": "The Saboteur can redirect abilities from - but not to - the Oaf without triggering its ability."
+      }
+    ]
+  },
+  "snitch",
+  {
+    "id": "blackmailer",
+    "name": "Blackmailer",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/ablae.png",
+      "http://menagerie.splittingpixels.com.au/images/ablag.png"
+    ],
+    "team": "minion",
+    "ability": "Each night, choose two players. The first must vote with the second. If they do not, one or both might die.",
+    "flavor": "Even the most honourable person is forced to yield to blackmail once or twice in their life, if only to keep the peace. (Creator credit: Matt)",
+    "firstNight": 30,
+    "otherNight": 30,
+    "firstNightReminder": "The Blackmailer chooses two players. Place the 'First' token on the first player chosen, and the 'Second' token on the second player chosen.",
+    "otherNightReminder": "The Blackmailer chooses two players. Place the 'First' token on the first player chosen, and the 'Second' token on the second player chosen.",
+    "reminders": [
+      "First",
+      "Second"
+    ],
+    "jinxes": [
+      {
+        "id": "zealot",
+        "reason": "The Zealot, if forced to vote with another player, must still adhere to their own ability. Neither the Zealot or the Blackmailer's other target die as a result."
+      },
+      {
+        "id": "butler",
+        "reason": "The Butler, if forced to vote with another player, must still adhere to their own ability. Neither the Butler or the Blackmailer's other target die as a result."
+      }
+    ]
+  },
+  "fearmonger",
+  {
+    "id": "muckraker",
+    "name": "Muckraker",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/muce.png",
+      "http://menagerie.splittingpixels.com.au/images/mucg.png"
+    ],
+    "team": "minion",
+    "ability": "Each day, 3 living players must make a different public statement about the game, or good loses. Tonight, if 1 statement was false, a player dies.",
+    "flavor": "Sir, please. It's right there, in print, clear as day. 'MAYORAL SCANDAL - CAVORTING WITH DEMONS' - save your lies for the courts.",
+    "firstNight": 0,
+    "otherNight": 57,
+    "otherNightReminder": "If a player has made an incorrect statement for the Muckraker, the player marked 'Slandered' :reminder: dies.",
+    "reminders": [
+      "Slandered"
+    ]
+  },
+  "baron",
+  "alhadikhia",
+  {
+    "id": "jnak",
+    "name": "J'nak",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/jnae.png",
+      "http://menagerie.splittingpixels.com.au/images/jnag.png"
+    ],
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. One good player knows you are one of two players. If executed while a Minion lives, your team wins.",
+    "flavor": "Life is a dream, following a road toward death. Long may you travel it. (Original credit &amp; copyright: The Pandemonium Institute)",
+    "firstNight": 65,
+    "otherNight": 34,
+    "firstNightReminder": "One good player learns that the J'nak is one of two players.",
+    "otherNightReminder": "The J'nak chooses a player.",
+    "reminders": [
+      "Dead",
+      "Knows",
+      "Wrong"
+    ],
+    "jinxes": [
+      {
+        "id": "poisoner",
+        "reason": "Information regarding the J'nak's identity is still provided if the J'nak is poisoned when it enters play."
+      }
+    ]
+  },
+  {
+    "id": "creepingterror",
+    "name": "Creeping Terror",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/cree.png",
+      "http://menagerie.splittingpixels.com.au/images/creg.png"
+    ],
+    "team": "demon",
+    "ability": "Each night*, mark up to 3 players for death, or kill marked players of your choice, then remove all marks. All players learn who is marked. [-1 Outsider]",
+    "flavor": "It is with us, every moment, hiding around corners, under beds, in your closet / Until the time is right and it is ready for you / It strikes quickly and is unmerciful / Unafraid of who will be hurt and who is left behind. (Original credit &amp; copyright: The Pandemonium Institute)",
+    "firstNight": 0,
+    "otherNight": 37,
+    "otherNightReminder": "The Creeping Terror selects up to 3 unmarked players: give each the ‘Marked’ reminder token; or the Creeping Terror selects any number of already Marked players.",
+    "reminders": [
+      "Marked",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "setup": true
+  },
+  "bootlegger",
+  {
+    "id": "peanutgallery",
+    "name": "Peanut Gallery",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/nut.png"
+    ],
+    "team": "fabled",
+    "ability": "Before characters are drawn, spectators choose one player. They win and lose with that player.",
+    "flavor": "We're #1! We're #1! We're #1!",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Chosen One"
+    ],
+    "setup": true
+  }
+]

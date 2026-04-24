@@ -1,0 +1,334 @@
+[
+  {
+    "id": "_meta",
+    "name": "The Creeping Despair",
+    "author": "Sybillian",
+    "almanac": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/almanac.html"
+  },
+  {
+    "id": "sirin_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/sirin_creepingdespair.png",
+    "firstNightReminder": "Show the known character token.",
+    "reminders": [
+      "Cannot Die"
+    ],
+    "name": "Sirin",
+    "team": "townsfolk",
+    "ability": "You start knowing an in-play Townsfolk character. They cannot die.",
+    "firstNight": 15
+  },
+  {
+    "id": "sudice_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/sudice_creepingdespair.png",
+    "otherNightReminder": "If Sudice guessed correctly today, wake them and nod. :reminder:",
+    "reminders": [
+      "Wakes"
+    ],
+    "name": "Sudice",
+    "team": "townsfolk",
+    "ability": "Each day, you may publicly guess the longest chain of good characters. If you are correct, you learn this tonight.",
+    "otherNight": 17
+  },
+  {
+    "id": "bannik_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/bannik_creepingdespair.png",
+    "firstNightReminder": "Show the character token.",
+    "otherNightReminder": "Show the character token.",
+    "reminders": [
+      "Cannot Die",
+      "No Ability"
+    ],
+    "name": "Bannik",
+    "team": "townsfolk",
+    "ability": "Each night, learn a character. If you are mad that you are this character, you cannot die  at night. :reminder: If you are mad that you are the Bannik, lose this ability. :reminder:",
+    "firstNight": 16,
+    "otherNight": 16
+  },
+  {
+    "id": "moryana_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/moryana_creepingdespair.png",
+    "firstNightReminder": "The Moryana points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Moryana and show them the relevant character token.",
+    "otherNightReminder": "The Moryana points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Moryana and show them the relevant character token.",
+    "reminders": [
+      "Watched"
+    ],
+    "name": "Moryana",
+    "team": "townsfolk",
+    "ability": "Each night, pick a player. Learn which ability selects them first tonight.",
+    "firstNight": 11,
+    "otherNight": 3
+  },
+  {
+    "id": "mediciner_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/mediciner_creepingdespair.png",
+    "firstNightReminder": "The Mediciner points to a player. :reminder:",
+    "otherNightReminder": "The Mediciner points to a player. :reminder:",
+    "reminders": [
+      "Safe from Execution"
+    ],
+    "name": "Mediciner",
+    "team": "townsfolk",
+    "ability": "Each night, pick a player; they cannot die by execution today if both of their neighbors are good.",
+    "firstNight": 17,
+    "otherNight": 19
+  },
+  {
+    "id": "scholar_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/scholar_creepingdespair.png",
+    "firstNightReminder": "The Scholar chooses a character type. Show them a character token of that type that is not in play.",
+    "otherNightReminder": "The Scholar chooses a character type. Show them a character token of that type that is not in play.",
+    "setup": true,
+    "name": "Scholar",
+    "team": "townsfolk",
+    "ability": "Each night, choose a character type; learn a not-in-play character of that type. [+1 Outsiders]",
+    "special": [
+      {
+        "type": "signal",
+        "name": "player",
+        "value": "Townsfolk"
+      },
+      {
+        "type": "signal",
+        "name": "player",
+        "value": "Outsider"
+      },
+      {
+        "type": "signal",
+        "name": "player",
+        "value": "Minion"
+      },
+      {
+        "type": "signal",
+        "name": "player",
+        "value": "Demon"
+      }
+    ],
+    "firstNight": 18,
+    "otherNight": 18
+  },
+  {
+    "id": "chort_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/chort_creepingdespair.png",
+    "firstNightReminder": "The Chort points at a player. Put the Chort to sleep and wake that player. Show the **THIS CHARACTER SELECTED YOU** token, then the Chort token.",
+    "otherNightReminder": "The Chort points at a player. Put the Chort to sleep and wake that player. Show the **THIS CHARACTER SELECTED YOU** token, then the Chort token.",
+    "name": "Chort",
+    "team": "townsfolk",
+    "ability": "Each night, pick a player; they learn that you are the Chort. If anyone is mad that you are the Chort, you and they might be executed, even if you are dead.",
+    "firstNight": 19,
+    "otherNight": 20
+  },
+  {
+    "id": "zhrets_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/zhrets_creepingdespair.png",
+    "otherNightReminder": "If the Zhrets nominated a living evil player, a different living evil player becomes drunk. :reminder:",
+    "reminders": [
+      "Drunk"
+    ],
+    "name": "Zhrets",
+    "team": "townsfolk",
+    "ability": "If you nominate a living evil player, a different living evil player is drunk tonight.",
+    "otherNight": 4
+  },
+  {
+    "id": "remnant_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/remnant_creepingdespair.png",
+    "name": "Remnant",
+    "team": "townsfolk",
+    "ability": "If you are the last living player on your team, your team wins. The Demon knows who you are, but cannot kill you at night."
+  },
+  {
+    "id": "kikimora_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/kikimora_creepingdespair.png",
+    "otherNightReminder": "If the Kikimora died, one of their neighbors dies too. :reminder:",
+    "reminders": [
+      "Healthy",
+      "Dead"
+    ],
+    "name": "Kikimora",
+    "team": "townsfolk",
+    "ability": "Your alive townsfolk neighbors cannot be drunk or poisoned. When you die, one of them dies that night.",
+    "otherNight": 15
+  },
+  {
+    "id": "skrzak_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/skrzak_creepingdespair.png",
+    "reminders": [
+      "Nobody Dies"
+    ],
+    "name": "Skrzak",
+    "team": "townsfolk",
+    "ability": "If you die at night, nobody can die at night tomorrow."
+  },
+  {
+    "id": "acolyte_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/acolyte_creepingdespair.png",
+    "otherNightReminder": "If the Acolyte died, show them the **YOU ARE** token and the Acolyte token.",
+    "remindersGlobal": [
+      "Is The Acolyte",
+      "Learns"
+    ],
+    "name": "Acolyte",
+    "team": "townsfolk",
+    "ability": "You think you are a bluff character, but you are not. When you die, learn that you are the Acolyte.",
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "otherNight": 21
+  },
+  {
+    "id": "vila_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/vila_creepingdespair.png",
+    "reminders": [
+      "Drunk"
+    ],
+    "name": "Vila",
+    "team": "outsider",
+    "ability": "Each night, one of your good neighbors (different than last night) is drunk, even if you are dead."
+  },
+  {
+    "id": "upir_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/upir_creepingdespair.png",
+    "otherNightReminder": "The Upi\u00f3r picks a character. :reminder:",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Upi\u00f3r",
+    "team": "outsider",
+    "ability": "Each night*, pick a unique Townsfolk character. If this character is in play, they are drunk tonight.",
+    "otherNight": 13
+  },
+  {
+    "id": "panetnik_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/panetnik_creepingdespair.png",
+    "otherNightReminder": "If the P\u0142anetnik nominated the Demon today, wake the P\u0142anetnik and show them a thumbs down. :reminder:",
+    "reminders": [
+      "Becomes Evil"
+    ],
+    "name": "P\u0142anetnik",
+    "team": "outsider",
+    "ability": "Each night*, if you nominated the Demon today, you become evil.",
+    "otherNight": 14
+  },
+  {
+    "id": "drekavac_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/drekavac_creepingdespair.png",
+    "otherNightReminder": "If the Drekavac became the Demon today, show them the **YOU ARE** token, then the Demon token, then a thumbs down. Wake the old Demon, show them the **YOU ARE** token, then the Drekavac token, then a thumbs up.",
+    "setup": true,
+    "name": "Drekavac",
+    "team": "outsider",
+    "ability": "If the Demon dies by execution and five or more players live, switch characters and alignments with them. If you die by execution, your team loses. [-0 to -1 Outsiders]",
+    "otherNight": 2
+  },
+  {
+    "id": "leshy_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/leshy_creepingdespair.png",
+    "otherNightReminder": "If the Leshy nominated a good player today, show them that player's character token. :reminder: Wake them again when that character would normally wake.",
+    "reminders": [
+      "Has Ability"
+    ],
+    "name": "Leshy",
+    "team": "minion",
+    "ability": "You have the ability of the good player you most recently nominated, and they are poisoned. You know what it is.",
+    "otherNight": 5
+  },
+  {
+    "id": "blud_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/blud_creepingdespair.png",
+    "firstNightReminder": "The Blud chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
+    "otherNightReminder": "The Blud chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
+    "reminders": [
+      "Linked"
+    ],
+    "name": "Blud",
+    "team": "minion",
+    "ability": "Each night, pick two living players; they learn this and must vote together, or one or both might die tonight.",
+    "firstNight": 12,
+    "otherNight": 7
+  },
+  {
+    "id": "vedmak_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/vedmak_creepingdespair.png",
+    "firstNightReminder": "The Vedmak chooses a player, character, and alignment. :reminder:",
+    "otherNightReminder": "The Vedmak chooses a player, character, and alignment. :reminder:",
+    "reminders": [
+      "Chosen"
+    ],
+    "name": "Vedmak",
+    "team": "minion",
+    "ability": "Each night, choose a player, character, and alignment. They register as your choice.",
+    "firstNight": 13,
+    "otherNight": 6
+  },
+  {
+    "id": "mavka_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/mavka_creepingdespair.png",
+    "otherNightReminder": "The Mavka might choose to become a not-in-play Demon. Show the **YOU ARE** token & their new character token, then kill the old Demon. :reminder:",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Mavka",
+    "team": "minion",
+    "ability": "Once per game, at night*, you may choose to become a not-in-play Demon. If so, the living Demon dies and you don't kill tonight.",
+    "otherNight": 8
+  },
+  {
+    "id": "svarog_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/svarog_creepingdespair.png",
+    "otherNightReminder": "The Svarog chooses a player. :reminder:",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Svarog",
+    "team": "demon",
+    "ability": "Each night*, choose a player: their neighbors die.",
+    "otherNight": 9
+  },
+  {
+    "id": "arbiter_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/arbiter_creepingdespair.png",
+    "otherNightReminder": "The Arbiter chooses a player.",
+    "reminders": [
+      "Dead",
+      "Nominated",
+      "Safe from Execution"
+    ],
+    "name": "Arbiter",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. :reminder: Townsfolk you nominate die tonight. :reminder: If you nominated a living evil player, you cannot die by execution today. :reminder:",
+    "otherNight": 10
+  },
+  {
+    "id": "porevit_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/porevit_creepingdespair.png",
+    "otherNightReminder": "The Porevit chooses two players.",
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Porevit",
+    "team": "demon",
+    "ability": "Each night*, choose two players: they die. :reminder: Your bluffs are in-play characters.",
+    "otherNight": 11
+  },
+  {
+    "id": "werewolf_creepingdespair",
+    "image": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/werewolf_creepingdespair.png",
+    "firstNightReminder": "Show the Werewolf their phrase.",
+    "otherNightReminder": "The Werewolf chooses a player. If an evil player said their phrase, the Werewolf chooses two players.",
+    "reminders": [
+      "Dead",
+      "Spell Cast"
+    ],
+    "name": "Werewolf",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. :reminder: You start knowing a phrase; if an evil player said it publicly today, kill twice and no deaths may be prevented. :reminder:",
+    "firstNight": 14,
+    "otherNight": 12
+  }
+]
