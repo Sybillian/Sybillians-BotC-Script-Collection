@@ -79,11 +79,11 @@
     "firstNightReminder": "The Mediciner points to a player. :reminder:",
     "otherNightReminder": "The Mediciner points to a player. :reminder:",
     "reminders": [
-      "Safe from Execution"
+      "Cannot Die"
     ],
     "name": "Mediciner",
     "team": "townsfolk",
-    "ability": "Each night, pick a player; if both of their neighbors are good, they cannot die until Dusk.",
+    "ability": "Each night, pick a player; they cannot die until Dusk if both of their neighbors are good.",
     "firstNight": 17,
     "otherNight": 19
   },
