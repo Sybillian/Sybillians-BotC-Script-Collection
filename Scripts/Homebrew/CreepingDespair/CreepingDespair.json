@@ -99,6 +99,7 @@
     "name": "Scholar",
     "team": "townsfolk",
     "ability": "Each night, choose a character type; learn a not-in-play character of that type. [+1 Outsiders]",
+    "flavor": "Such obsession with what *is* and what *was* is a pedestrian pursuit. Everyone by virtue of being is intimately familiar with all that. What is *not,* however, is perhaps worthy of my attention.",
     "special": [
       {
         "type": "signal",
@@ -135,6 +136,7 @@
     "name": "Chort",
     "team": "townsfolk",
     "ability": "Each night, pick a player; they learn that you are the Chort. If anyone is mad that you are the Chort, you and they might be executed, even if you are dead.",
+    "flavor": "Listen to me! LISTEN! I know you can hear me, so cut it out; I don't like this game!",
     "firstNight": 19,
     "otherNight": 20
   },
@@ -151,6 +153,7 @@
     "name": "Mortician",
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose a dead player: they are resurrected, and you become their alignment.",
+    "flavor": "There's a simple secret to poke through all this nonsense. You see, we're all just meat. Arms and legs and teeth and eyes of varying sizes and quantities. Particularly teeth, I'm finding.",
     "firstNight": 19,
     "otherNight": 20
   },
@@ -166,7 +169,8 @@
     ],
     "name": "Zhrets",
     "team": "townsfolk",
-    "ability": "If you nominate a living evil player, a different living evil player is drunk tonight.",
+    "ability": "If you nominate and do not execute a living evil player, a different living evil player is drunk tonight.",
+    "flavor": "You must be the last of them. It'll be worse for you if not.",
     "otherNight": 4
   },
   {
@@ -223,6 +227,7 @@
     "name": "Acolyte",
     "team": "townsfolk",
     "ability": "You think you are a bluff character, but you are not. When you die, learn that you are the Acolyte.",
+    "flavor": "I've seen it, the monster in the night. But I'm not afraid. The monster is strong, and the monster does not fear. So the solution is simple; I must be like the monster, for it has shown me a way to live that I had never considered.",
     "special": [
       {
         "name": "bag-disabled",
@@ -246,7 +251,8 @@
     ],
     "name": "Vila",
     "team": "outsider",
-    "ability": "Each night, one of your good neighbors (different than last night) is drunk, even if you are dead."
+    "ability": "Each night, one of your good neighbors (different than last night) is drunk, even if you are dead.",
+    "flavor": "What's a little joy in such a trying time? A drink for anyone who asks! It's no skin off my back!"
   },
   {
     "id": "upir_creepingdespair",
@@ -261,6 +267,7 @@
     "name": "Upi\u00f3r",
     "team": "outsider",
     "ability": "Each night*, pick a unique Townsfolk character. If this character is in play, they are drunk tonight.",
+    "flavor": "I have never felt such thirst before in my life - and while I must be very clear that I derive no joy from this - I don't plan to feel it again.",
     "otherNight": 13
   },
   {
@@ -275,7 +282,7 @@
     ],
     "name": "P\u0142anetnik",
     "team": "outsider",
-    "ability": "Each night*, if you nominated the Demon today, you become evil.",
+    "ability": "If you nominate the Demon, you become evil tonight.",
     "otherNight": 14
   },
   {
