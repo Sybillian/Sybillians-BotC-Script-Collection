@@ -1,12 +1,12 @@
 [
   {
     "id": "_meta",
-    "name": "The Creeping Despair",
+    "name": "Deranged Duet",
     "author": "Sybillian",
     "almanac": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/CreepingDespair\/almanac.html"
   },
   {
-    "id": "sirin_creepingdespair",
+    "id": "sirin_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/sirin_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/sirin_evil.png"
@@ -21,22 +21,22 @@
     "firstNight": 15
   },
   {
-    "id": "sudice_creepingdespair",
+    "id": "astrologer_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/sudice_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/sudice_evil.png"
     ],
-    "otherNightReminder": "If Sudice guessed correctly today, wake them and nod. :reminder:",
+    "otherNightReminder": "If the Astrologer guessed correctly today, wake them and nod. :reminder:",
     "reminders": [
       "Wakes"
     ],
-    "name": "Sudice",
+    "name": "Astrologer",
     "team": "townsfolk",
-    "ability": "Each day, you may publicly guess the longest chain of good characters. If you are correct, you learn this tonight.",
+    "ability": "Each day, you may publicly guess the longest chain of good players. Tonight, learn if you were correct.",
     "otherNight": 17
   },
   {
-    "id": "bannik_creepingdespair",
+    "id": "bannik_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/bannik_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/bannik_evil.png"
@@ -49,18 +49,18 @@
     ],
     "name": "Bannik",
     "team": "townsfolk",
-    "ability": "Each night, learn a character. If you are mad that you are this character, you cannot die  at night. If you are mad that you are the Bannik, lose this ability.",
+    "ability": "Each night, learn a character. If you are mad that you are this character, you cannot die at night. If you are mad that you are the Bannik, lose this ability.",
     "firstNight": 16,
     "otherNight": 16
   },
   {
-    "id": "moryana_creepingdespair",
+    "id": "ratcatcher_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/moryana_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/moryana_evil.png"
     ],
-    "firstNightReminder": "The Moryana points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Moryana and show them the relevant character token.",
-    "otherNightReminder": "The Moryana points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Moryana and show them the relevant character token.",
+    "firstNightReminder": "The Ratcatcher points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Ratcatcher and show them the relevant character token.",
+    "otherNightReminder": "The Ratcatcher points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Ratcatcher and show them the relevant character token.",
     "reminders": [
       "Watched"
     ],
@@ -71,7 +71,7 @@
     "otherNight": 3
   },
   {
-    "id": "mediciner_creepingdespair",
+    "id": "mediciner_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/mediciner_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/mediciner_evil.png"
@@ -88,7 +88,7 @@
     "otherNight": 19
   },
   {
-    "id": "scholar_creepingdespair",
+    "id": "scholar_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/scholar_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/scholar_evil.png"
@@ -126,7 +126,7 @@
     "otherNight": 18
   },
   {
-    "id": "chort_creepingdespair",
+    "id": "chort_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/chort_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/chort_evil.png"
@@ -135,16 +135,16 @@
     "otherNightReminder": "The Chort points at a player. Put the Chort to sleep and wake that player. Show the **THIS CHARACTER SELECTED YOU** token, then the Chort token.",
     "name": "Chort",
     "team": "townsfolk",
-    "ability": "Each night, pick a player; they learn that you are the Chort. If anyone is mad that you are the Chort, you and they might be executed, even if you are dead.",
+    "ability": "Each night, pick a player; they learn that you are the Chort. If anyone is mad that you are the Chort, you and they might be executed (once), even if you are dead.",
     "flavor": "Listen to me! LISTEN! I know you can hear me, so cut it out; I don't like this game!",
     "firstNight": 19,
     "otherNight": 20
   },
   {
-    "id": "mortician_creepingdespair",
+    "id": "mortician_derangedduet",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/chort_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/chort_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/mortician_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/mortician_evil.png"
     ],
     "otherNightReminder": "The Mortician might point at a player. If they are evil, show the Mortician a thumbs down.",
     "reminders": [
@@ -158,33 +158,33 @@
     "otherNight": 20
   },
   {
-    "id": "zhrets_creepingdespair",
+    "id": "zhrets_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/zhrets_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/zhrets_evil.png"
     ],
-    "otherNightReminder": "If the Zhrets nominated a living evil player, a different living evil player becomes drunk. :reminder:",
+    "otherNightReminder": "If the Zhrets nominated a living opposing player, a different living opposing player becomes drunk. :reminder:",
     "reminders": [
       "Drunk"
     ],
     "name": "Zhrets",
     "team": "townsfolk",
-    "ability": "If you nominate and do not execute a living evil player, a different living evil player is drunk tonight.",
+    "ability": "If you nominate and do not execute a living opposing player, a different living opposing player is drunk tonight.",
     "flavor": "You must be the last of them. It'll be worse for you if not.",
     "otherNight": 4
   },
   {
-    "id": "remnant_creepingdespair",
+    "id": "sentry_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/remnant_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/remnant_evil.png"
     ],
-    "name": "Remnant",
+    "name": "Sentry",
     "team": "townsfolk",
     "ability": "If you are the last living player on your team, your team wins. The Demon knows who you are, but cannot kill you at night."
   },
   {
-    "id": "kikimora_creepingdespair",
+    "id": "kikimora_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/kikimora_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/kikimora_evil.png"
@@ -201,7 +201,7 @@
     "otherNight": 15
   },
   {
-    "id": "skrzak_creepingdespair",
+    "id": "hellion_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/skrzak_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/skrzak_evil.png"
@@ -209,20 +209,19 @@
     "reminders": [
       "Nobody Dies"
     ],
-    "name": "Skrzak",
+    "name": "Hellion",
     "team": "townsfolk",
     "ability": "If you die at night, nobody can die at night tomorrow."
   },
   {
-    "id": "acolyte_creepingdespair",
+    "id": "acolyte_derangedduet",
     "image": [
       "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/CreepingDespair\/Townsfolk\/acolyte_good.png",
       "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/CreepingDespair\/Townsfolk\/acolyte_evil.png"
     ],
     "otherNightReminder": "If the Acolyte died, show them the **YOU ARE** token and the Acolyte token.",
     "remindersGlobal": [
-      "Is The Acolyte",
-      "Learns"
+      "Is The Acolyte"
     ],
     "name": "Acolyte",
     "team": "townsfolk",
@@ -241,7 +240,7 @@
     "otherNight": 21
   },
   {
-    "id": "vila_creepingdespair",
+    "id": "vila_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/vila_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/vila_evil.png"
@@ -255,51 +254,51 @@
     "flavor": "What's a little joy in such a trying time? A drink for anyone who asks! It's no skin off my back!"
   },
   {
-    "id": "upir_creepingdespair",
+    "id": "strigoi_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/uprior_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/uprior_evil.png"
     ],
-    "otherNightReminder": "The Upi\u00f3r picks a character. :reminder:",
+    "otherNightReminder": "The Strigoi picks a character. :reminder:",
     "reminders": [
       "Drunk"
     ],
-    "name": "Upi\u00f3r",
+    "name": "Strigoi",
     "team": "outsider",
     "ability": "Each night*, pick a unique Townsfolk character. If this character is in play, they are drunk tonight.",
     "flavor": "I have never felt such thirst before in my life - and while I must be very clear that I derive no joy from this - I don't plan to feel it again.",
     "otherNight": 13
   },
   {
-    "id": "panetnik_creepingdespair",
+    "id": "planetnik_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/planetnik_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/planetnik_evil.png"
     ],
-    "otherNightReminder": "If the P\u0142anetnik nominated the Demon today, wake the P\u0142anetnik and show them a thumbs down. :reminder:",
+    "otherNightReminder": "If the Planetnik nominated the Demon today, wake the Planetnik and show them a thumbs down. :reminder:",
     "reminders": [
       "Becomes Evil"
     ],
-    "name": "P\u0142anetnik",
+    "name": "Planetnik",
     "team": "outsider",
-    "ability": "If you nominate the Demon, you become evil tonight.",
+    "ability": "If you nominate the Demon, you become evil tonight. If you did not nominate today, you might die.",
     "otherNight": 14
   },
   {
-    "id": "drekavac_creepingdespair",
+    "id": "revenant_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/drekavac_good.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/drekavac_evil.png"
     ],
-    "otherNightReminder": "If the Drekavac became the Demon today, show them the **YOU ARE** token, then the Demon token, then a thumbs down. Wake the old Demon, show them the **YOU ARE** token, then the Drekavac token, then a thumbs up.",
+    "otherNightReminder": "If the Revenant became the Demon today, show them the **YOU ARE** token, then the Demon token, then a thumbs down. Wake the old Demon, show them the **YOU ARE** token, then the Revenant token, then a thumbs up.",
     "setup": true,
-    "name": "Drekavac",
+    "name": "Revenant",
     "team": "outsider",
     "ability": "If the Demon dies by execution and five or more players live, switch characters and alignments with them. If you die by execution, your team loses. [-0 to -1 Outsiders]",
     "otherNight": 2
   },
   {
-    "id": "leshy_creepingdespair",
+    "id": "leshy_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/leshy_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/leshy_good.png"
@@ -315,43 +314,43 @@
     "otherNight": 5
   },
   {
-    "id": "blud_creepingdespair",
+    "id": "concubus_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/blud_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/blud_good.png"
     ],
-    "firstNightReminder": "The Blud chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
-    "otherNightReminder": "The Blud chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
+    "firstNightReminder": "The Concubus chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
+    "otherNightReminder": "The Concubus chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
     "reminders": [
       "Linked",
       "Linked"
     ],
-    "name": "Blud",
+    "name": "Concubus",
     "team": "minion",
     "ability": "Each night, pick two living players; they learn this and must vote together, or one or both might die tonight.",
-    "flavor": "Arm in arm, side by side, and all of that - isn't it so romantic?",
     "firstNight": 12,
     "otherNight": 7
   },
   {
-    "id": "vedmak_creepingdespair",
+    "id": "fae_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/vedmak_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/vedmak_good.png"
     ],
-    "firstNightReminder": "The Vedmak chooses a player, character, and alignment. :reminder:",
-    "otherNightReminder": "The Vedmak chooses a player, character, and alignment. :reminder:",
+    "firstNightReminder": "The Fae chooses a player, character, and alignment. :reminder:",
+    "otherNightReminder": "The Fae chooses a player, character, and alignment. :reminder:",
     "reminders": [
       "Chosen"
     ],
-    "name": "Vedmak",
+    "name": "Fae",
     "team": "minion",
     "ability": "Each night, choose a player, character, and alignment. They register as your choice.",
+    "flavor": "Forget, and know peace.",
     "firstNight": 13,
     "otherNight": 6
   },
   {
-    "id": "mavka_creepingdespair",
+    "id": "mavka_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/mavka_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/mavka_good.png"
@@ -367,7 +366,7 @@
     "otherNight": 8
   },
   {
-    "id": "svarog_creepingdespair",
+    "id": "svarog_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/svarog_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/svarog_good.png"
@@ -383,7 +382,7 @@
     "otherNight": 9
   },
   {
-    "id": "arbiter_creepingdespair",
+    "id": "arbiter_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/arbiter_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/arbiter_good.png"
@@ -398,11 +397,11 @@
     "name": "Arbiter",
     "team": "demon",
     "ability": "Each night*, choose a player: they die. Townsfolk you nominate die tonight. If you nominated a living evil player, you cannot die by execution today.",
-    "flavor": "Put your trust in me, little lambs. I will cast the devils from this town, and you will wisely stay out of my way.",
+    "flavor": "Put your trust in me, little lambs, and wisely stay out of my way.",
     "otherNight": 10
   },
   {
-    "id": "porevit_creepingdespair",
+    "id": "porevit_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/porevit_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/porevit_good.png"
@@ -415,11 +414,10 @@
     "name": "Porevit",
     "team": "demon",
     "ability": "Each night*, choose two players: they die. Your bluffs are in-play characters.",
-    "flavor": "Have you noticed that everything comes in twos around these parts? Why shouldn't we do the same?",
     "otherNight": 11
   },
   {
-    "id": "werewolf_creepingdespair",
+    "id": "werewolf_derangedduet",
     "image": [
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/werewolf_evil.png",
       "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/CreepingDespair/Townsfolk/werewolf_good.png"

@@ -235,6 +235,12 @@
         "remindersGlobal": [
             "Madman"
         ],
+        "special": [
+            {
+                "type": "reveal",
+                "name": "replace-character"
+            }
+        ],
         "setup": true
     },
     {
@@ -254,6 +260,12 @@
             "Cursed",
             "Cursed"
         ],
+        "special": [
+            {
+                "type": "reveal",
+                "name": "replace-character"
+            }
+        ],
         "setup": true
     },
     {
@@ -266,7 +278,7 @@
         "firstNight": 0,
         "otherNight": 0,
         "reminders": [
-            "Drunk ",
+            "Drunk",
             "Drunk",
             "Drunk",
             "Drunk",
@@ -300,16 +312,20 @@
         "flavor": "We live to serve.",
         "firstNight": 0,
         "otherNight": 0,
-        "reminders": [
-            "Minion I",
-            "Minion II",
-            "Minion III",
-            "Minion IV"
+        "remindersGlobal": [
+            "Minion",
+            "Minion",
+            "Minion",
+            "Minion"
         ],
         "special": [
             {
                 "type": "selection",
                 "name": "bag-duplicate"
+            },
+            {
+                "type": "reveal",
+                "name": "replace-character"
             }
         ]
     },
@@ -399,10 +415,10 @@
         "firstNightReminder": "Wake a Minion of your choice and show them their Outsider ability.",
         "otherNightReminder": "The Dark Lord chooses a player.",
         "reminders": [
-            "Outsider I",
-            "Outsider II",
-            "Outsider III",
-            "Outsider IV",
+            "Outsider",
+            "Outsider",
+            "Outsider",
+            "Outsider",
             "Dead"
         ]
     },
@@ -500,7 +516,14 @@
         "ability": "At the start of each day, before night death are announced, you may silently point at someone. Everyone may vote. If a majority is reached, the designated player dies.",
         "flavor": "Primal. Uncaring. Cold. Just.",
         "firstNight": 0,
-        "otherNight": 0
+        "otherNight": 0,
+        "special": [
+            {
+                "type": "ability",
+                "name": "pointing",
+                "time": "day"
+            }
+        ]
     },
     "bootlegger"
 ]
