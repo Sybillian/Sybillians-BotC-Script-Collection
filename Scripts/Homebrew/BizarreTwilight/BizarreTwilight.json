@@ -215,8 +215,8 @@
   {
     "id": "acolyte_bizarretwilight",
     "image": [
-      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizarreTwilight\/Townsfolk\/acolyte_good.png",
-      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizarreTwilight\/Townsfolk\/acolyte_evil.png"
+      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizarreTwilight\/Icons\/acolyte_good.png",
+      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizarreTwilight\/Icons\/acolyte_evil.png"
     ],
     "otherNightReminder": "If the Acolyte died, show them the **YOU ARE** token and the Acolyte token.",
     "remindersGlobal": [
