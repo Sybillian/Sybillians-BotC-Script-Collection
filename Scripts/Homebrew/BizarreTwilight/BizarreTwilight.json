@@ -1,15 +1,15 @@
 [
   {
     "id": "_meta",
-    "name": "Bizzare Twilight",
+    "name": "Bizarre Twilight",
     "author": "Sybillian",
-    "almanac": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/BizzareTwilight\/almanac.html"
+    "almanac": "https:\/\/bloodstar.clocktica.com\/p\/Sybillian\/BizarreTwilight\/almanac.html"
   },
   {
     "id": "sirin_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/sirin_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/sirin_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/sirin_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/sirin_evil.png"
     ],
     "firstNightReminder": "Show the known character token.",
     "reminders": [
@@ -23,8 +23,8 @@
   {
     "id": "astrologer_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/astrologer_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/astrologer_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/astrologer_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/astrologer_evil.png"
     ],
     "otherNightReminder": "If the Astrologer guessed correctly today, wake them and nod. :reminder:",
     "reminders": [
@@ -38,8 +38,8 @@
   {
     "id": "bannik_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/bannik_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/bannik_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/bannik_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/bannik_evil.png"
     ],
     "firstNightReminder": "Show the character token. :reminder:",
     "otherNightReminder": "Show the character token. :reminder:",
@@ -56,8 +56,8 @@
   {
     "id": "ratcatcher_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/ratcatcher_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/ratcatcher_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/ratcatcher_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/ratcatcher_evil.png"
     ],
     "firstNightReminder": "The Ratcatcher points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Ratcatcher and show them the relevant character token.",
     "otherNightReminder": "The Ratcatcher points to a player. :reminder: Put them to sleep; if that player is selected later, wake the Ratcatcher and show them the relevant character token.",
@@ -73,8 +73,8 @@
   {
     "id": "mediciner_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/mediciner_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/mediciner_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/mediciner_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/mediciner_evil.png"
     ],
     "firstNightReminder": "The Mediciner points to a player. :reminder:",
     "otherNightReminder": "The Mediciner points to a player. :reminder:",
@@ -90,8 +90,8 @@
   {
     "id": "scholar_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/scholar_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/scholar_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/scholar_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/scholar_evil.png"
     ],
     "firstNightReminder": "The Scholar chooses a character type. Show them a character token of that type that is not in play.",
     "otherNightReminder": "The Scholar chooses a character type. Show them a character token of that type that is not in play.",
@@ -128,8 +128,8 @@
   {
     "id": "chort_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/chort_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/chort_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/chort_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/chort_evil.png"
     ],
     "firstNightReminder": "The Chort points at a player. Put the Chort to sleep and wake that player. Show the **THIS CHARACTER SELECTED YOU** token, then the Chort token.",
     "otherNightReminder": "The Chort points at a player. Put the Chort to sleep and wake that player. Show the **THIS CHARACTER SELECTED YOU** token, then the Chort token.",
@@ -143,8 +143,8 @@
   {
     "id": "mortician_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/mortician_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/mortician_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/mortician_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/mortician_evil.png"
     ],
     "otherNightReminder": "The Mortician might point at a player. If they are evil, show the Mortician a thumbs down.",
     "reminders": [
@@ -159,8 +159,8 @@
   {
     "id": "zhrets_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/zhrets_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/zhrets_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/zhrets_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/zhrets_evil.png"
     ],
     "otherNightReminder": "If the Zhrets nominated a living opposing player, a different living opposing player becomes drunk. :reminder:",
     "reminders": [
@@ -175,8 +175,8 @@
   {
     "id": "sentry_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/sentry_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/sentry_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/sentry_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/sentry_evil.png"
     ],
     "name": "Sentry",
     "team": "townsfolk",
@@ -185,8 +185,8 @@
   {
     "id": "kikimora_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/kikimora_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/kikimora_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/kikimora_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/kikimora_evil.png"
     ],
     "otherNightReminder": "If the Kikimora died, one of their neighbors dies too. :reminder:",
     "reminders": [
@@ -202,8 +202,8 @@
   {
     "id": "hellion_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/hellion_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/hellion_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/hellion_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/hellion_evil.png"
     ],
     "reminders": [
       "Nobody Dies"
@@ -215,8 +215,8 @@
   {
     "id": "acolyte_bizarretwilight",
     "image": [
-      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizzareTwilight\/Townsfolk\/acolyte_good.png",
-      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizzareTwilight\/Townsfolk\/acolyte_evil.png"
+      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizarreTwilight\/Townsfolk\/acolyte_good.png",
+      "https:\/\/raw.githubusercontent.com\/Sybillian\/Sybillians-BotC-Script-Collection\/refs\/heads\/main\/Scripts\/Homebrew\/BizarreTwilight\/Townsfolk\/acolyte_evil.png"
     ],
     "otherNightReminder": "If the Acolyte died, show them the **YOU ARE** token and the Acolyte token.",
     "remindersGlobal": [
@@ -241,8 +241,8 @@
   {
     "id": "vila_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/vila_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/vila_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/vila_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/vila_evil.png"
     ],
     "reminders": [
       "Drunk"
@@ -255,8 +255,8 @@
   {
     "id": "strigoi_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/strigoi_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/strigoi_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/strigoi_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/strigoi_evil.png"
     ],
     "otherNightReminder": "The Strigoi picks a character. :reminder:",
     "reminders": [
@@ -271,8 +271,8 @@
   {
     "id": "planetnik_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/planetnik_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/planetnik_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/planetnik_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/planetnik_evil.png"
     ],
     "otherNightReminder": "If the Planetnik nominated the Demon today, wake the Planetnik and show them a thumbs down. :reminder:",
     "reminders": [
@@ -286,8 +286,8 @@
   {
     "id": "revenant_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/revenant_good.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/revenant_evil.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/revenant_good.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/revenant_evil.png"
     ],
     "otherNightReminder": "If the Revenant became the Demon today, show them the **YOU ARE** token, then the Demon token, then a thumbs down. Wake the old Demon, show them the **YOU ARE** token, then the Revenant token, then a thumbs up.",
     "setup": true,
@@ -299,8 +299,8 @@
   {
     "id": "leshy_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/leshy_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/leshy_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/leshy_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/leshy_good.png"
     ],
     "otherNightReminder": "If the Leshy nominated a good player today, show them that player's character token. :reminder: Wake them again when that character would normally wake.",
     "reminders": [
@@ -315,8 +315,8 @@
   {
     "id": "concubus_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/concubus_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/concubus_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/concubus_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/concubus_good.png"
     ],
     "firstNightReminder": "The Concubus chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
     "otherNightReminder": "The Concubus chooses two players. :reminder: Show them **THIS CHARACTER SELECTED YOU** and the Blud token.",
@@ -333,8 +333,8 @@
   {
     "id": "fae_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/fae_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/fae_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/fae_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/fae_good.png"
     ],
     "firstNightReminder": "The Fae chooses a player, character, and alignment. :reminder:",
     "otherNightReminder": "The Fae chooses a player, character, and alignment. :reminder:",
@@ -351,8 +351,8 @@
   {
     "id": "mavka_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/mavka_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/mavka_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/mavka_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/mavka_good.png"
     ],
     "otherNightReminder": "The Mavka might choose to become a not-in-play Demon. Show the **YOU ARE** token & their new character token, then kill the old Demon. :reminder:",
     "reminders": [
@@ -367,8 +367,8 @@
   {
     "id": "svarog_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/svarog_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/svarog_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/svarog_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/svarog_good.png"
     ],
     "otherNightReminder": "The Svarog chooses a player. :reminder:",
     "reminders": [
@@ -383,8 +383,8 @@
   {
     "id": "arbiter_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/arbiter_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/arbiter_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/arbiter_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/arbiter_good.png"
     ],
     "otherNightReminder": "The Arbiter chooses a player. :reminder:",
     "reminders": [
@@ -402,8 +402,8 @@
   {
     "id": "porevit_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/porevit_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/porevit_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/porevit_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/porevit_good.png"
     ],
     "otherNightReminder": "The Porevit chooses two players. :reminder::reminder:",
     "reminders": [
@@ -418,8 +418,8 @@
   {
     "id": "werewolf_bizarretwilight",
     "image": [
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/werewolf_evil.png",
-      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizzareTwilight/Icons/werewolf_good.png"
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/werewolf_evil.png",
+      "https://raw.githubusercontent.com/Sybillian/Sybillians-BotC-Script-Collection/refs/heads/main/Scripts/Homebrew/BizarreTwilight/Icons/werewolf_good.png"
     ],
     "firstNightReminder": "Show the Werewolf their phrase.",
     "otherNightReminder": "The Werewolf chooses a player. :reminder: If an evil player said their phrase, the Werewolf chooses two players. :reminder:",
